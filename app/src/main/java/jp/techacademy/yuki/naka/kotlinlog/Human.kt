@@ -7,9 +7,7 @@ open class Human: Animal, Thinkable {
     var hobby: String
 
     // 引数付きコンストラクタ
-    constructor(name: String, age: Int): super(name, age) {
-        this.name = ""
-        this.age = 0
+    constructor(name: String, age: Int, hobby: String): super(name, age, hobby) {
         this.hobby = ""
     }
 
