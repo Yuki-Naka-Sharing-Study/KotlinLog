@@ -13,10 +13,9 @@ class MainActivity : AppCompatActivity() {
         val human = Human("仲優樹",24)    // 名前を仲優樹、年齢24歳で、趣味はYouTubeのインスタンスを作る
 
         human.say()
-        Log.d("kotlintest", "私の名前は" + human.name + "です。")
-        Log.d("kotlintest", "年は" + human.age + "歳です。")
 
-        human.think()
-        Log.d("kotlintest", "私は" +""+ "について考える。")
+        val human2 = Human("Yuki Naka",25)    // 名前をYuki Naka、年齢25歳で、趣味はYouTubeのインスタンスを作る
+
+        human2.think()
     }
 }

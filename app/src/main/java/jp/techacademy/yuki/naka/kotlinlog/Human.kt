@@ -8,6 +8,8 @@ open class Human: Animal, Thinkable {
 
     // 引数付きコンストラクタ
     constructor(name: String, age: Int): super(name, age) {
+        this.name = ""
+        this.age = 0
         this.hobby = ""
     }
 
