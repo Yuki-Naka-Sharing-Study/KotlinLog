@@ -13,5 +13,4 @@ abstract class Animal {
 
     abstract fun say()
 
-    abstract fun think()
 }

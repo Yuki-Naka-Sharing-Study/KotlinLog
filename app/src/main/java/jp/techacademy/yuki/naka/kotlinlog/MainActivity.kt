@@ -13,9 +13,11 @@ class MainActivity : AppCompatActivity() {
         val human = Human("仲優樹",24)    // 名前を仲優樹、年齢24歳で、趣味はYouTubeのインスタンスを作る
 
         human.say()
+        human.think()
 
         val human2 = Human("Yuki Naka",25)    // 名前をYuki Naka、年齢25歳で、趣味はYouTubeのインスタンスを作る
 
+        human2.say()
         human2.think()
     }
 }
