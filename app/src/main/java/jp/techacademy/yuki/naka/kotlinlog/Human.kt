@@ -8,7 +8,7 @@ open class Human: Animal, Thinkable {
 
     // 引数付きコンストラクタ
     constructor(name: String, age: Int, hobby: String): super(name, age) {
-        this.hobby = ""
+        this.hobby = hobby
     }
 
     // Animalクラスのメソッドをオーバーライド  (私の名前は〜〜です。年は〜〜歳です。)
